@@ -40,6 +40,7 @@ app.post("/login", async (req, res, next) => {
     next(error);
   }
 });
+
 app.listen(3001, () => {
   console.log("server runnig on the port 3001");
 });
